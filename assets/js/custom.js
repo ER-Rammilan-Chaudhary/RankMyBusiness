@@ -351,7 +351,7 @@ $('.flt_heading').click(function () {
     // Append enough logo groups to overflow wrapper width
     const groupWidth = logoGroup.offsetWidth;
     const wrapperWidth = wrapper.offsetWidth;
-    const clonesNeeded = Math.ceil(wrapperWidth * 2 / groupWidth); // extra for smooth loop
+    const clonesNeeded = Math.ceil(wrapperWidth * 2 / groupWidth); 
 
     for (let i = 0; i < clonesNeeded; i++) {
       track.appendChild(logoGroup.cloneNode(true));
