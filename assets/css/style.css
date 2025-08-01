@@ -2108,7 +2108,7 @@ h5, .text_editor .left_title h5, .banner_sec .left_part h5{font-size: 15px;}
 .innovative_result.two .icon_text_slider .swiper-slide{height: unset;}
 .innovative_result.two .icon_text_slider .swiper-slide{padding: 0;}
 .innovative_result.two .icon_text_slider .swiper-slide{width: 100% !important;}
-
+.header a.btn_black{ padding: 12px 13px; font-size: 12px;}
 
 
 }
