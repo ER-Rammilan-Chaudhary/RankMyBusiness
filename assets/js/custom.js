@@ -841,4 +841,38 @@ if ($('.floating-img').length > 0) {
   });
 }
 
+
+
+document.querySelector('#contact_form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const form = e.target;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("https://formspree.io/f/mqalloeg", {
+      method: "POST",
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      alert("Thank you! Your message has been sent.");
+      form.reset();
+    } else {
+      const result = await response.json();
+      alert("Submission failed: " + (result.message || "Please try again later."));
+    }
+
+  } catch (error) {
+    alert("Network error. Please try again later.");
+    console.error("Error submitting form:", error);
+  }
 });
+
+
+
+
+})

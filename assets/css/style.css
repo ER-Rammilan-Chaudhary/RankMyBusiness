@@ -2089,7 +2089,6 @@ h5, .text_editor .left_title h5, .banner_sec .left_part h5{font-size: 15px;}
 .how_we_think.slider_img .right_part{padding-left: 0;}
 .how_we_think.slider_img .slider_arrow .swiper_arrow {margin-top: 15px;margin-left: 0;}
 
-
 .innovative_result.two .scroll_moving_text h2 {font-size: 55px;line-height: 77px;}
 .why_choose_us .right_part .icon_with_text_cardblock .card{width: 100%;}
 .why_choose_us .icon_with_text_cardblock {gap: 45px 20px;}
@@ -2109,6 +2108,7 @@ h5, .text_editor .left_title h5, .banner_sec .left_part h5{font-size: 15px;}
 .innovative_result.two .icon_text_slider .swiper-slide{padding: 0;}
 .innovative_result.two .icon_text_slider .swiper-slide{width: 100% !important;}
 .header a.btn_black{ padding: 12px 13px; font-size: 12px;}
+
 
 
 }

@@ -57,7 +57,8 @@
                                 <a class="btn_black" href="#">Get a Free SEO Audit</a>
                                 <div class="more_details">
                                     <a class="tel" href="tel:833349611">833349611</a><br>
-                                    <a href="mailto:rammilanchaudhary513@gmail.com" class="mail">rammilanchaudhary513@gmail.com</a>
+                                    <a href="mailto:rammilanchaudhary513@gmail.com"
+                                        class="mail">rammilanchaudhary513@gmail.com</a>
 
                                     <div class="mobile_menubar desktop_none">
                                         <div class="bar">
@@ -88,13 +89,13 @@
                 <div class="wrapper">
                     <div class="top_nav full_width">
                         <ul id="slideNav">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/Industries">Industries</a></li>
-                            <li><a href="/case-study">Case Study</a></li>
-                            <li><a href="/case study-details">Case Study Details </a></li>
-                            <li><a href="/about-us">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="Industries.html">Industries</a></li>
+                            <li><a href="case-study.html">Case Study</a></li>
+                            <li><a href="case study-details.html">Case Study Details </a></li>
+                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
 
@@ -131,20 +132,21 @@
                         <div class="text_wrap">
                             <div class="top_menu">
                                 <ul id="mobileMenu">
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/services">Services</a></li>
-                                    <li><a href="/Industries">Industries</a></li>
-                                    <li><a href="/case-study">Case Study</a></li>
-                                    <li><a href="/case study-details">Case Study Details </a></li>
-                                    <li><a href="/about-us">About</a></li>
-                                    <li><a href="/contact">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="Industries.html">Industries</a></li>
+                            <li><a href="case-study.html">Case Study</a></li>
+                            <li><a href="case study-details.html">Case Study Details </a></li>
+                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li> 
                                 </ul>
                             </div>
                             <div class="bottom_menu">
                                 <div class="social">
                                     <ul>
                                         <li><a href="https://www.facebook.com/" target="_blank">
-                                                <img src="assets/images/facebook-white.svg" alt="Facebook Instagram"></a></li>
+                                                <img src="assets/images/facebook-white.svg"
+                                                    alt="Facebook Instagram"></a></li>
                                         <li><a href="https://www.instagram.com/" target="_blank">
                                                 <img src="assets/images/insta-white.svg" alt="Instagram"></a></li>
                                         <li><a href="https://www.linkedin.com/" target="_blank">
@@ -1096,49 +1098,51 @@
 
                                     </div>
                                 </div>
-                                <a href="tel:1300007265" class="btn_animation">
+                                <a href="tel:8433349611" class="btn_animation">
                                     <div class="rounded_arrow hidden"></div>
-                                    <div class="btn_text">1300 007 265</div>
-                                    <div class="rounded_arrow withouthover"></div>
+                                    <div class="btn_text">8433349611</div>
+                                    <div class="rounded_arrow withouthover"></div>    
                                 </a>
                             </div>
                         </div>
-                        <div class="contact_form ">
+                   <form class="contact_form" id="contact_form" method="POST" action="https://formspree.io/f/mqalloeg">
                             <div class="input_field">
-                                <input type="text" placeholder="Full Name*">
+                                <input type="text" class="form-control" id="fname" placeholder="Full Name*" name="fname"
+                                    required>
                             </div>
                             <div class="input_field">
-                                <input type="email" placeholder="Email*">
+                                <input type="email" class="form-control" id="email" placeholder="Email*" name="email" required>
                             </div>
                             <div class="input_field">
-                                <input type="text" placeholder="Phone Number">
+                                <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
                             </div>
                             <div class="input_field">
-                                <input type="text" placeholder="Company*">
+                                <input type="text" class="form-control" id="company" placeholder="Company*"  name="company">
                             </div>
                             <div class="input_field">
-                                <input type="text" placeholder="Website">
+                                <input type="text" class="form-control" id="website" placeholder="Website"  name="website">
                             </div>
                             <div class="input_field">
-                                <select name="" id="">
+                                <select name="referral" id="referral">
                                     <option value="">How did you hear about us?</option>
-                                    <option value="">How did you hear about us?</option>
-                                    <option value="">How did you hear about us?</option>
+                                    <option value="google">Google</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="friend">Friend</option>
                                 </select>
                             </div>
                             <div class="input_field full_width">
-                                <textarea name="" id=""
+                                <textarea name="message" id="message"
                                     placeholder="Tell us how you are looking to grow online..."></textarea>
                             </div>
                             <div class="input_field full_width">
-                                <button class="btn_animation">
+                                <button type="submit" class="btn_animation">
                                     <div class="rounded_arrow hidden"></div>
-                                    <div class="btn_text"><input type="submit" value="Let’s Kick Off" /></div>
+                                    <div class="btn_text">Let’s Kick Off</div>
                                     <div class="rounded_arrow withouthover"></div>
                                 </button>
-
                             </div>
-                        </div>
+                        </form>
+
                     </div>
                 </div>
                 <!-- contact_us_sec start -->
@@ -1160,10 +1164,7 @@
                                         Something Brilliant, Mate!</h2>
                                     <h2 class="gradient-text overlap_t">Let’s Build<br>
                                         Something Brilliant, Mate!</h2>
-
                                 </div>
-
-
                                 <a href="#" class="btn_animation">
                                     <div class="rounded_arrow hidden"></div>
                                     <div class="btn_text">Drop us a line</div>
